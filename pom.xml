@@ -204,7 +204,14 @@
         <scope>test</scope>
              </dependency>
     </dependencies>
-  </dependencyManagement>
+           
+    <distributionManagement>
+    <repository>
+    <id>aarna</id>
+    <url>http://localhost:8085/nexus/content/repositories/aarna</url>
+    </repository>
+      </distributionManagement>
+        </dependencyManagement>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
